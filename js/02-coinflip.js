@@ -1,4 +1,4 @@
-var coinFlip = Math.random;
+var coinFlip = Math.random();
 var valid = false;
 var choice;
 do {
