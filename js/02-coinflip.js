@@ -11,7 +11,8 @@ do {
 } while (valid == false);
 
 var result = "";
-if (coinFlip >= 0.5) {
+coinFlip = Math.round(coinFlip);
+if (coinFlip == 1) {
     result += "The flip was tails";
     if (choice == "H") {
         result += " and you chose heads... you lose!";
